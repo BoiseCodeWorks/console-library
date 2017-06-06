@@ -45,14 +45,14 @@ How do you create a `new Library` that can have a list of books?
 
 You will also need a couple of Methods that you can call from Program.cs
 
-###Checkout()
+### Checkout()
 The Checkout Method should be responsible for removing a book from the `List` of `AvailableBooks`.
 
-###SelectBook()
+### SelectBook()
 SelectBook will need to check the users input and validate the input is a valid
 
-###ReturnBook()
+### ReturnBook()
 Responsible for adding a previously checked out book to be returned to the `List` of `AvailableBooks`
 
-###Bonus Challenge
+### Bonus Challenge
 When a book is returned display to the console the amount of time the book was absent for.
