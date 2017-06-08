@@ -16,7 +16,7 @@ Select a Book to Checkout:
 Select the Book you would like to checkout by number: 
 ```
 
-To Get started create a `new Console Application` from Visual Studio or use the [yo generator](https://www.npmjs.com/package/generator-aspnet)
+To Get started create a `new Console Application`
 
 You will need two classes 
 
@@ -53,6 +53,9 @@ SelectBook will need to check the users input and validate the input is a valid
 
 ### ReturnBook()
 Responsible for adding a previously checked out book to be returned to the `List` of `AvailableBooks`
+
+### AddBook()
+Responsible for adding a new book to the `List` of `AvailableBooks`
 
 ### Bonus Challenge
 When a book is returned display to the console the amount of time the book was absent for.
